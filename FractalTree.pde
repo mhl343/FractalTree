@@ -1,22 +1,18 @@
 private double fractionLength = .8; 
 private int smallestBranch = 5; 
 private double branchAngle = .5;  
-//private color myColor1=color(97,71,250);
 private color myColor1=color(255,255,255);
 private color myColor2=color(247,10,247);
-private color myColor3=color(97,71,250);
 
-private int color1=0;
 public void setup() 
 {   
 	size(640,480);    
-	//noLoop(); 
+	noLoop(); 
 } 
 public void draw() 
 {   
 	background(212,201,222);   
-	//stroke(0,72,185);
-	stroke(color1);
+	stroke(72,48,17);
 	strokeWeight(5);
 	line(320,480,320,380);   
 	drawBranches(320,380,100,3*Math.PI/2);  //will add later 
@@ -43,10 +39,10 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 	}
 
 } 
-public void mouseClicked(){
+/*public void mouseClicked(){
 	if (color1==0){
 		 color1=255;
 	}else{
 		color1=0;
 	}
-}
+}*/
