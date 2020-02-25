@@ -39,10 +39,3 @@ public void drawBranches(int x,int y, double branchLength, double angle)
 	}
 
 } 
-/*public void mouseClicked(){
-	if (color1==0){
-		 color1=255;
-	}else{
-		color1=0;
-	}
-}*/
